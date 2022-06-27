@@ -1,0 +1,90 @@
+@media all and (min-width: 601px) {
+
+    .wrap-form {
+        width: 100%;
+        font-size: 1.5em;
+        margin: 10px auto;
+        float: left;
+    }
+    .header {
+        font-size: 1em;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+    .rubric2 {
+        float: left;
+        width: 200px;
+        margin-right: 5px;
+    }
+    .publication1 {
+        float: left;
+        font-size: 1em;
+    }
+
+    .publication2 {
+        float: left;
+        width: 200px;
+    }
+    input[type="text"] {
+        width: 100%;
+        font-size: 0.5em;
+    }
+    .articlename {
+        width: 200px;
+        display: inline-block;
+    }
+    .articlename_input {
+display: flex;
+flex: 1;
+    }
+    .articletext {
+        padding: 5px;
+        height: 50px;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 0.7em;
+    box-sizing: border-box;
+    }
+    .article {
+        overflow: hidden;
+        white-space: nowrap;
+display: flex;
+    }
+     .articletext1{
+       width: 200px;
+    }
+    .comments {
+        display: block;
+        clear: both;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .wrap-form {
+        width: 100%;
+        margin-right: 15px;
+        font-size: 1.3em;
+    }
+    textarea.articletext {
+        padding: 5px;
+        height: 50px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    input#articlename {
+        width: 100%;
+    }
+    .publication1 {
+        display: block;
+    }
+    .header {
+        font-size: 1em;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+    .rubric {
+        display: block;
+    }
+}
