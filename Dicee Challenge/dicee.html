@@ -8,25 +8,32 @@
       href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
-      <h1>Refresh Me</h1>
-
+      <h1>Dice</h1>
+      <h2 id="total">Your score is:</h2>
       <div class="dice">
-        <p>Player 1</p>
+        <p class="Player1">Player 1</p>
         <img class="img1" src="images/dice6.png" />
+        <button type="button" onClick="refreshPage()">Roll the Dice</button>
       </div>
 
       <div class="dice">
-        <p>Player 2</p>
+        <p class="Player2">Player 2</p>
         <img class="img2" src="images/dice6.png" />
+        <button class="editNames" type="submit" onClick="editNames()">
+          Edit Names
+        </button>
       </div>
     </div>
-
     <script src="index.js"></script>
-    <!-- link js -->
   </body>
-
   <footer></footer>
 </html>
