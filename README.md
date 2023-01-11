@@ -1,3 +1,3 @@
 # dice-game-vanilla-js
 
-Simple Dice game built using Javascript, HTML and CSS.
+Simple browser Dice game built using Javascript, HTML and CSS.
